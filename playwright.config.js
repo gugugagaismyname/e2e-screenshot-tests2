@@ -7,7 +7,8 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:3000',
     trace: 'on-first-retry',
-    headless: true
+    headless: true,
+    viewport: { width: 1280, height: 720 },
   },
   projects: [
     {
